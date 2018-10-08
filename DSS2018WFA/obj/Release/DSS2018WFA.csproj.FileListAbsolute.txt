@@ -1,0 +1,16 @@
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\DSS2018WFA.exe.config
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\DSS2018WFA.exe
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\DSS2018WFA.pdb
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\EntityFramework.dll
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\EntityFramework.SqlServer.dll
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\System.Data.SQLite.dll
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\System.Data.SQLite.EF6.dll
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\System.Data.SQLite.Linq.dll
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\EntityFramework.xml
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\EntityFramework.SqlServer.xml
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Release\System.Data.SQLite.xml
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\obj\Release\DSS2018WFA.Form1.resources
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\obj\Release\DSS2018WFA.Properties.Resources.resources
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\obj\Release\DSS2018WFA.csproj.GenerateResource.Cache
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\obj\Release\DSS2018WFA.exe
+c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\obj\Release\DSS2018WFA.pdb

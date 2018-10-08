@@ -1,0 +1,5 @@
+Stiamo facendo sqlLite.
+Molte cose belle da fare.
+ADO sembra il framework migliore, w c#.
+Tutti i db possono essere interrogati da ado.net.
+Install Package System.Data.SqLite da PM comand line(da tools).
