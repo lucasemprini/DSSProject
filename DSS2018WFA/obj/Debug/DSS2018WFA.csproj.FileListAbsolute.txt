@@ -15,3 +15,24 @@ c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\D
 c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Debug\EntityFramework.xml
 c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\feden\documents\visual studio 2015\Projects\DSS2018WFA\DSS2018WFA\bin\Debug\System.Data.SQLite.xml
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\DSS2018WFA.exe.config
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\DSS2018WFA.exe
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\DSS2018WFA.pdb
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\EntityFramework.dll
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\System.Data.SQLite.dll
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\EntityFramework.xml
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\System.Data.SQLite.xml
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.csprojAssemblyReference.cache
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.Form1.resources
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.Properties.Resources.resources
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.csproj.GenerateResource.cache
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.csproj.CoreCompileInputs.cache
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.csproj.CopyComplete
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.exe
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\obj\Debug\DSS2018WFA.pdb
+C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\DSS2018WFA\bin\Debug\it\EntityFramework.resources.dll

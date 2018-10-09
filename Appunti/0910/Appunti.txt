@@ -1,0 +1,2 @@
+Creare array in cui inserire dati che si prendono da DB facendo select, e poi
+calcolare media, varianza, deviazione standard e mediana dei valori.

@@ -29,7 +29,8 @@ namespace DSS2018WFA
 
         private void btnStart_Click_1(object sender, EventArgs e)
         {
-            C.doSomething(); // logica applicative }
+            // C.doSomething(); // logica applicative }
+            C.callAdoModel();
         }
 
         private void search_btn_Click(object sender, EventArgs e)

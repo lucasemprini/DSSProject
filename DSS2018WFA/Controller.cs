@@ -8,9 +8,10 @@ using System.Configuration;
 namespace DSS2018WFA
 {
     class Controller
-    { Model M = new Model();
-    public delegate void viewEventHandler(object sender, string textToWrite); // questo gestisce l'evento
-    public event viewEventHandler FlushText; // questo genera l'evanto
+    {
+        Model M = new Model();
+        public delegate void viewEventHandler(object sender, string textToWrite); // questo gestisce l'evento
+        public event viewEventHandler FlushText; // questo genera l'evanto
 
         public string connString, factory;
         public Controller()
@@ -23,7 +24,7 @@ namespace DSS2018WFA
                 case "SQLiteConn":
                     connString = ConfigurationManager.ConnectionStrings["SQLiteConn"].ConnectionString;
                     factory = ConfigurationManager.ConnectionStrings["SQLiteConn"].ProviderName;
-                    string dbPath = @"C:\Users\feden\Documents\Visual Studio 2015\Projects\DSS2018WFA\testDb.sqlite";
+                    string dbPath = @"C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\testDb.sqlite";
                     //Qui va fatto un replace
                     connString = connString.Replace("DBFILE", dbPath);
                     break;
@@ -33,6 +34,12 @@ namespace DSS2018WFA
                     factory = "System.Data.SqlClient";
                     break;
 
+                case "RemoteSqlServConn":
+                    connString = ConfigurationManager.ConnectionStrings["RemoteSqlServConn"].ConnectionString;
+                    factory = "System.Data.SqlClient";
+                    break;
+
+
                 default:
                     connString =
                     ConfigurationManager.ConnectionStrings["LocalDbConn"].ConnectionString;
@@ -41,29 +48,32 @@ namespace DSS2018WFA
 
             }
         }
-    private void controllerViewEventHandler(object sender, string textToWrite)
-    { FlushText(this, textToWrite); }
-    public void doSomething()
-    {
-            string dbpath = @"C:\Users\feden\Documents\Visual Studio 2015\Projects\DSS2018WFA\testDb.sqlite";
+        private void controllerViewEventHandler(object sender, string textToWrite)
+        { FlushText(this, textToWrite); }
+        public void doSomething()
+        {
+            string dbpath = @"C:\Users\lucse\IdeaProjects\DSS2018-master\DSS2018-master\testDB.sqlite";
             Console.WriteLine(dbpath);
             string connString = @"Data Source=" + dbpath + "; Version=3";
             M.doSomathing();
             M.readClients(connString);
-    }
+        }
 
-    public void searchClients(string dbPath)
+        public void searchClients(string dbPath)
         {
             string connString = @"Data Source=" + dbPath + "; Version=3";
             M.readClients(connString);
         }
 
-    public void searchClientsByID(int idValue)
+        public void searchClientsByID(int idValue)
         {
-           // M.launchParametrizedQuery(connString, factory, idValue);
-           M.lauchParametrizedQueryTecnologyIndipendent(connString,factory,idValue);
+            // M.launchParametrizedQuery(connString, factory, idValue);
+            M.lauchParametrizedQueryTecnologyIndipendent(connString, factory, idValue);
         }
-
+        
+        public void callAdoModel()
+        {
+            M.readOrdersByEF();
+        }
     }
 }
-

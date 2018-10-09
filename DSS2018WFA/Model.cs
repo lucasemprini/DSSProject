@@ -92,5 +92,74 @@ namespace DSS2018WFA
                 }
             }
         }
+        
+        public void readOrdersByEF()
+        {
+            testDbEntities context = new testDbEntities();
+            
+            List<int> dati = new List<int>();
+            //select...
+            foreach (ordini o in context.ordini)
+            {
+
+                dati.Add(Convert.ToInt32(o.codice));
+                FlushText(this, o.codice + " " + o.descr);
+            }
+            double media = 0;
+            foreach (int num in dati)
+            {
+                media += num;
+            }
+            media = media / dati.Count;
+            FlushText(this, "Media: " + media);
+
+            double scarti = 0;
+            foreach (int num in dati)
+            {
+                double scarto = (num - media) * (num - media);
+                scarti += scarto;
+            }
+
+            FlushText(this, "Varianza: " + scarti / dati.Count);
+
+            FlushText(this, "Deviazione Standard: " + CalculateStdDev(dati));
+
+            FlushText(this, "Mediana: " + CalculateMedian(dati));
+        }
+
+        private double CalculateStdDev(List<int> values)
+        {
+            double ret = 0;
+            if (values.Count() > 0)
+            {
+                //Compute the Average      
+                double avg = values.Average();
+                //Perform the Sum of (value-avg)_2_2      
+                double sum = values.Sum(d => Math.Pow(d - avg, 2));
+                //Put it all together      
+                ret = Math.Sqrt((sum) / (values.Count() - 1));
+            }
+            return ret;
+        }
+        private double CalculateMedian(List<int> values)
+        {
+            int numberCount = values.Count();
+            int halfIndex = values.Count() / 2;
+            var sortedNumbers = values.OrderBy(n => n);
+            double median;
+            if ((numberCount % 2) == 0)
+            {
+                median = ((sortedNumbers.ElementAt(halfIndex) +
+                    sortedNumbers.ElementAt(halfIndex - 1)) / 2);
+                return median;
+            }
+            else
+            {
+                median = sortedNumbers.ElementAt(halfIndex);
+                return median;
+            }
+
+        }
     }
+
 }
