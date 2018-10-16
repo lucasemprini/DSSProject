@@ -95,7 +95,7 @@ namespace DSS2018WFA
         
         public void readOrdersByEF()
         {
-            testDbEntities context = new testDbEntities();
+            testDbEntities1 context = new testDbEntities1();
             
             List<int> dati = new List<int>();
             //select...
@@ -124,7 +124,20 @@ namespace DSS2018WFA
 
             FlushText(this, "Deviazione Standard: " + CalculateStdDev(dati));
 
-            FlushText(this, "Mediana: " + CalculateMedian(dati));
+            FlushText(this, "Mediana: " + CalculateMedian(dati) + "\n\n\n");
+        }
+
+        public void readDataSerie()
+        {
+            testDbEntities1 context = new testDbEntities1();
+
+            List<int> dati = new List<int>();
+            //select...
+            foreach (serie s in context.serie)
+            {
+                
+                FlushText(this, s.esempio + ";" + s.esempio2 + ";" + s.jewelry + ";" + s.Passengers + ";" + s.time);
+            }
         }
 
         private double CalculateStdDev(List<int> values)

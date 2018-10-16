@@ -74,6 +74,7 @@ namespace DSS2018WFA
         public void callAdoModel()
         {
             M.readOrdersByEF();
+            M.readDataSerie();
         }
     }
 }

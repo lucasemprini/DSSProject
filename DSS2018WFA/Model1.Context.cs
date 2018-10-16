@@ -13,10 +13,10 @@ namespace DSS2018WFA
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class testDbEntities : DbContext
+    public partial class testDbEntities1 : DbContext
     {
-        public testDbEntities()
-            : base("name=testDbEntities")
+        public testDbEntities1()
+            : base("name=testDbEntities1")
         {
         }
     
@@ -27,5 +27,7 @@ namespace DSS2018WFA
     
         public virtual DbSet<clienti> clienti { get; set; }
         public virtual DbSet<ordini> ordini { get; set; }
+        public virtual DbSet<serie> serie { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }
