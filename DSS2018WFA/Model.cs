@@ -135,7 +135,6 @@ namespace DSS2018WFA
             //select...
             foreach (serie s in context.serie)
             {
-                
                 FlushText(this, s.esempio + ";" + s.esempio2 + ";" + s.jewelry + ";" + s.Passengers + ";" + s.time);
             }
         }
